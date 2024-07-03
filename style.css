@@ -1,29 +1,56 @@
-body{
-    margin:0px;
-    background-image: url("./images/stargazing-solitary-figure-stockcake.jpg");
+
+body,html{
     height: 100%;
+    margin:0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.parallax-image-1{
+    background-image: url("./images/img_parallax.jpg");
+    min-height: 100%;
+}
+
+.parallax-image-1{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
 }
 
 
-/* navigation bar */
-.container_home {
-    background-color: azure;
-    margin: 200px;
+/* tood: needs to place in the middle */
+.parallax-image-1 .caption{
+    position: absolute;
+    background-color: rgb(242, 241, 241);
+    left: 0;
+    top: 50%;
+    left: 40%;
 }
-ul{
-    list-style: none;
+
+.caption .scroll-down-text{
     text-align: center;
-    padding: 40%;
-    /* background-color: rgba(111, 150, 234, 0.267); */
-    overflow: hidden;
+    font-size: 50px;
+    padding: 18px;
+    letter-spacing:2px;
+
 }
 
 
+/* my ambitions */
+.my-ambition-headline{
+    text-align: center;
+    font: 20px "Lato", sans-serif;
+    padding-top:10%;
+    color: #111;
+}
 
-li a:hover {
-    background-color: #3b25dd;
+
+.my-ambition .my-ambition-text{
+    text-align: center;
+    margin-top: 0px;
+    font-size:18px;
+    color: #777;
+    padding: 50px 80px;
 }
