@@ -18,31 +18,65 @@ body,html{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-/* tood: needs to place in the middle */
-.parallax-image-1 .caption{
-    position: absolute;
-    background-color: rgb(242, 241, 241);
-    left: 0;
-    top: 50%;
-    left: 40%;
+.output{
+        position: absolute;
+        top: 35%;
+        margin-left: 35%;
+        margin-right: 30%;
 }
+    
+    .output-container .output {
+        text-align:center;
+        font-family: 'Source Code Pro', monospace;
+        color:rgb(51, 219, 68);
+        h1 {
+        font-size:30px;
+        text-align: center;
+        }
+    }
+    
+  /* Cursor Styling */
+    
+    .cursor::after {
+        content:'';
+        display:inline-block;
+        margin-left:3px;
+        background-color:rgb(11, 40, 12);
+        animation-name:blink;
+        animation-duration:0.3s;
+        animation-iteration-count: infinite;
+    }
+    h1.cursor::after {
+        height:24px;
+        width:13px;
+    }
+    p.cursor::after {
+        height:13px;
+        width:6px;
+    }
+    
+    @keyframes blink {
+        0% {
+        opacity:1;
+        }
+        49% {
+        opacity:1;
+        }
+        50% {
+        opacity:0;
+        }
+        100% {
+        opacity:0;
+        }
+    }
 
-.caption .scroll-down-text{
-    text-align: center;
-    font-size: 50px;
-    padding: 18px;
-    letter-spacing:2px;
-
-}
 
 
 /* my ambitions */
 .my-ambition-headline{
     text-align: center;
     font: 20px "Lato", sans-serif;
-    padding-top:10%;
+    padding-top:5%;
     color: #111;
 }
 
@@ -54,3 +88,27 @@ body,html{
     color: #777;
     padding: 50px 80px;
 }
+
+
+/* before projects background */
+.project-background-2{
+    background-image: url("./images/img_parallax.jpg");
+    min-height:60%;
+}
+
+.project-background-2{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* project background */
+.projects .projects-headline{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+}
+
