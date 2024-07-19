@@ -136,6 +136,7 @@ body,html{
     justify-content : center;
     align-items : center;
     flex-warp : warp;
+    padding-left: 55px;
 }
 
 .projects .container .card {
@@ -285,4 +286,25 @@ body,html{
     flex-warp : warp;
     width: 100%;
     z-index: 1;
+}
+
+@media (max-width: 1175px) {
+    .projects .container {
+        padding-left: 15px;
+    }
+}
+@media (max-width: 1040px) {
+    .projects .container {
+        margin-left: 80px;
+    }
+}
+@media (max-width: 779px) {
+    .projects .container {
+        margin-left: 80px;
+    }
+}
+@media (max-width: 575px) {
+    .projects .container {
+        margin-left: 80px;
+    }
 }
