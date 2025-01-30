@@ -1,4 +1,4 @@
-import React from "react";
+
 import Ai from "../assets/Achievements/Ai.png";
 import Awwward from "../assets/Achievements/Awwward.png";
 import Freelance from "../assets/Achievements/Freelance.png";

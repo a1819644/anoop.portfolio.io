@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Footer.css";
 const Footer = () => {
   return (
@@ -10,7 +9,7 @@ const Footer = () => {
       </div>
       <ul>
         <li>
-          <button type="button" class="btn btn-outline-primary">
+          <button type="button" className="btn btn-outline-primary">
             <a href="https://www.linkedin.com/in/anoop-kumar-khushwaha-b16b64218/">
               Linkedin
             </a>

@@ -1,4 +1,4 @@
-import React from "react";
+
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/IntroductionStyles.css";
 import profilePicture from "../assets/profilePicture.webp";
