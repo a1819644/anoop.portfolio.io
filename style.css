@@ -1,0 +1,53 @@
+body {
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExczUzaWZwMWs3a3R2bnpsZnpyNG1xZ2dubmtmb2EwaWpsemR0ZHlhMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ITRemFlr5tS39AzQUL/giphy.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.container {
+  position: absolute;
+  display: grid;
+  text-align: center;
+  right: 40%;
+  top: 50%;
+  left: 40%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+button {
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button a {
+    
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  display: block;
+}
+button {
+    background-color: #04aa6d;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 10px #04aa6d, 0 0 40px #04aa6d;
+  }
+  
